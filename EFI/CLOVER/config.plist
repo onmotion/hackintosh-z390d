@@ -113,7 +113,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>alcid=53 dart=0 slide=4</string>
+		<string>alcid=99 dart=0 slide=4</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
