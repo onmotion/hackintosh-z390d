@@ -1,6 +1,8 @@
 HACKINTOSH FOR GIGABYTE Z390 D
 ==
 
+`Tested on Catalina 10.15.1`
+
 ![2019-12-07_13-40-18.png](./assets/2019-12-07_13-40-18.png)
 
 ## hardware
