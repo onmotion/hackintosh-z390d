@@ -119,11 +119,9 @@
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
-		<key>NeverDoRecovery</key>
-		<true/>
+		<string>macOS</string>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -177,6 +175,8 @@
 		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>Theme</key>
+		<string>random</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -193,8 +193,6 @@
 		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>KernelCpu</key>
-		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
@@ -207,7 +205,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #2- 10.15(Credits@PMheart)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>g/kPDw==</data>
 				<key>MatchOS</key>
@@ -221,7 +219,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #1 10.15 Credits @PMheart</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>g/sPDw==</data>
 				<key>MatchOS</key>
@@ -233,6 +231,17 @@
 			</dict>
 		</array>
 		<key>PanicNoKextDump</key>
+		<true/>
+	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>DevirtualiseMmio</key>
+		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>ProtectUefiServices</key>
 		<true/>
 	</dict>
 	<key>RtVariables</key>
@@ -271,7 +280,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string></string>
+		<string>1037.60.50.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -294,7 +303,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string></string>
+		<string>1AD00F26-5543-45B7-8FA4-0D25C1CE35D3</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

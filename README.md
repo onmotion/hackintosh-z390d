@@ -18,7 +18,7 @@ HACKINTOSH FOR GIGABYTE Z390 D
 
 ## What works
 
-**All** including USB3 and sleep with power nap
+**Everything** including USB3 and sleep with power nap
 
 **SPDIF** (optical and coaxial) works too with ext card:
 
