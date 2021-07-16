@@ -1,7 +1,7 @@
 HACKINTOSH EFI FOR **GIGABYTE Z390 D**
 ==
 
-> EFI OpenCore **0.64**
+> EFI OpenCore **0.7.1**
 
 ![2020-12-07_13-49-58.png](./assets/2021-01-08_19-34-09.png)
 
